@@ -1,1 +1,70 @@
 /* Write your CSS code in this file */
+
+#border {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/VQxuKuGkesnGpfPXx_qf7LUpJ48=/148x0:1768x1080/1820x1213/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/36471222/91mQygmODzL-2040.0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+.subheader1 {
+    color: yellow;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+#guess-list {
+    text-align: center;
+}
+
+.enterB {
+    text-align: center;
+}
+
+.end {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+.icon {
+    border-radius: 70%;
+    width: 60px;
+    height: 60px;
+}
+
+.guess {
+    display: inline-block;
+    margin: 20px;
+    height: 60px;
+    background-color: midnightblue;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    font-family: 'Brush Script MT, cursive';
+    font-size: 3rem;
+}
+
+#guess-feedback {
+text-align: center;
+font-size: 2rem;
+color: yellow;
+}
+
+#show-hint {
+text-align: center;
+font-size: 2rem;
+color: yellow;
+}
+
